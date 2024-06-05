@@ -21,6 +21,7 @@ public class ExampleController : Controller
     public IActionResult ProcessExampleFormPage(string name, string email, string comment)
     {       
         // TODO: Create future card for saving to database
-        return Redirect("/example");
+        ViewBag.Name = name;
+        return View("ThankYou");
     }
 }
