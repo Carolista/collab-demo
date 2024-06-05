@@ -20,9 +20,9 @@ public class ExampleController : Controller
     [HttpPost("form")]
     public IActionResult ProcessExampleForm(string name, string email, string comment)
     {
+        // TODO on another branch: save to database
         ViewBag.Name = name;
         return View("ThankYou");
     }
 
-    // [HttpGet("thankyou")]
 }
