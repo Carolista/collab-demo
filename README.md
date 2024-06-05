@@ -5,7 +5,7 @@
 Full list of TODOs [here](https://docs.google.com/document/d/1R8XIKSDRQgfDAE0Qmzrpmn7Ja0AuzFovTYY7PDEDeUM/edit)
 
 #### TODO 2
-Create `ExampleController` class and `Example/Index.cshtml` template (no partial yet) and code the action method for `GET /example` in the controller. Make a **commit**.
+Create `Example/Index.cshtml` template (no partial yet) and code the action method for `GET /example` in the Example controller. Make a **commit**.
 
 Template:
 ```
